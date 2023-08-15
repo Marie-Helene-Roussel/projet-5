@@ -55,8 +55,9 @@ const slide = slides[index]
 const bannerImg = document.querySelector(".banner-img")
 const chemin = "./assets/images/slideshow/"
 bannerImg.src = chemin+slide.image
-})
 
+})
+console.log(arrowRight)
 	
 const arrowLeft = document.querySelector(".arrow_left")
 arrowLeft.addEventListener("click", function(slide1){
@@ -67,7 +68,8 @@ const chemin = "./assets/images/slideshow/"
 bannerImg.src = chemin+slide.image
 
 })
-	
+console.log(arrowLeft)
+
 
 
 
