@@ -25,7 +25,7 @@ let index = 0
 
 function genererBullet(){
 	for (let i=0; i < slides.length; i++){
-		// Création d'une balise pour la première slide
+		// Création d'une balise pour les bullets point
 		const bullet = document.createElement("div")
 		if(i===0){
 			bullet.className = "dot dot_selected"
