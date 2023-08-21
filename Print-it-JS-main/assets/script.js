@@ -31,6 +31,7 @@ function genererBullet(){
 			bullet.className = "dot dot_selected"
 
 		}
+		
 		else{
 			bullet.className = "dot" 
 		}
@@ -55,6 +56,9 @@ const slide = slides[index]
 const bannerImg = document.querySelector(".banner-img")
 const chemin = "./assets/images/slideshow/"
 bannerImg.src = chemin+slide.image
+const dots = document.querySelectorAll(".dot")
+dots[index].className= "dot dot_selected"
+
 
 })
 console.log(arrowRight)
